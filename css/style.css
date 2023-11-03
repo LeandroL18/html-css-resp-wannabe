@@ -127,3 +127,18 @@ img {
 /************************************************
     SOLUZIONE RESPONSIVE
  ************************************************/
+
+ @media all and (max-width: 1140px){
+    .container{
+        width: 100%;
+    }
+ }
+
+ @media all and (max-width: 480px){
+    .row{
+        display: block;
+    }
+    .lessons .col, .steps .col, .why-us .col-left, .why-us .col-right{
+        width: 100%;
+    }
+ }
